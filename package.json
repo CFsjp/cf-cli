@@ -1,0 +1,34 @@
+{
+  "name": "cf-cli",
+  "version": "1.0.0",
+  "description": "Framework Template Management by ay",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "cf": "bin/cf"
+  },
+  "url": "",
+  "author": {
+    "name": "chengfeng"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^2.4.2",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.19.0",
+    "cross-spawn": "^7.0.3",
+    "download-git-repo": "^3.0.2",
+    "envinfo": "^7.8.1",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.1.0",
+    "hyperquest": "^2.1.3",
+    "inquirer": "^8.0.0",
+    "ora": "^5.0.0",
+    "prompts": "^2.4.2",
+    "semver": "^7.3.7",
+    "tmp": "^0.2.1"
+  }
+}
